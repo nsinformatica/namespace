@@ -4,15 +4,15 @@ class Cadastro{
 	private $email;
 	private $senha;
 
-	public function getNome():string 
+	public function getNome() 
 	{
 		return $this->nome;
 	}
-	public function getEmail():string
+	public function getEmail()
 	{
 		return $this->email;
 	}
-	public function getSenha():string
+	public function getSenha()
 	{
 		return $this->senha;
 	}
@@ -20,7 +20,7 @@ class Cadastro{
 		$this->nome = $nome;
 	}
 	public function setEmail($email){
-		$this->email = $email
+		$this->email = $email;
 	}
 	public function setSenha($senha){
 		$this->senha = $senha;
